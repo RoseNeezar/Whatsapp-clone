@@ -10,7 +10,7 @@
 		335D7856265114D700490FBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 335D7855265114D700490FBB /* GoogleService-Info.plist */; };
 		339E984B2651065100AAE801 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339E984A2651065100AAE801 /* AppDelegate.swift */; };
 		339E984D2651065100AAE801 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339E984C2651065100AAE801 /* SceneDelegate.swift */; };
-		339E984F2651065100AAE801 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339E984E2651065100AAE801 /* ViewController.swift */; };
+		339E984F2651065100AAE801 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339E984E2651065100AAE801 /* LoginViewController.swift */; };
 		339E98522651065100AAE801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339E98502651065100AAE801 /* Main.storyboard */; };
 		339E98542651065300AAE801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339E98532651065300AAE801 /* Assets.xcassets */; };
 		339E98572651065300AAE801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 339E98552651065300AAE801 /* LaunchScreen.storyboard */; };
@@ -22,7 +22,7 @@
 		339E98472651065100AAE801 /* whatsapp-clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "whatsapp-clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		339E984A2651065100AAE801 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		339E984C2651065100AAE801 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		339E984E2651065100AAE801 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		339E984E2651065100AAE801 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		339E98512651065100AAE801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		339E98532651065300AAE801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		339E98562651065300AAE801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			children = (
 				339E984A2651065100AAE801 /* AppDelegate.swift */,
 				339E984C2651065100AAE801 /* SceneDelegate.swift */,
-				339E984E2651065100AAE801 /* ViewController.swift */,
+				339E984E2651065100AAE801 /* LoginViewController.swift */,
 				339E98502651065100AAE801 /* Main.storyboard */,
 				339E98532651065300AAE801 /* Assets.xcassets */,
 				339E98552651065300AAE801 /* LaunchScreen.storyboard */,
@@ -209,7 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				339E984F2651065100AAE801 /* ViewController.swift in Sources */,
+				339E984F2651065100AAE801 /* LoginViewController.swift in Sources */,
 				339E984B2651065100AAE801 /* AppDelegate.swift in Sources */,
 				339E984D2651065100AAE801 /* SceneDelegate.swift in Sources */,
 			);
