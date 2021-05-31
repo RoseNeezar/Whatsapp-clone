@@ -90,6 +90,9 @@
                                     <constraint firstAttribute="height" constant="30" id="2Ab-of-1Vi"/>
                                 </constraints>
                                 <state key="normal" title="Forgot Password ?"/>
+                                <connections>
+                                    <action selector="forgotPasswordButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SIN-th-opF"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufY-xm-LeP">
                                 <rect key="frame" x="278" y="356" width="120" height="30"/>
@@ -98,10 +101,16 @@
                                     <constraint firstAttribute="width" constant="120" id="d69-TW-9VA"/>
                                 </constraints>
                                 <state key="normal" title="Resend Email"/>
+                                <connections>
+                                    <action selector="resendEmailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G6T-f3-E4Q"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7GH-5a-Dyk">
                                 <rect key="frame" x="60" y="406" width="294" height="62"/>
                                 <state key="normal" image="loginBtn"/>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qf9-29-Kck"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="ZW3-Hs-9SF">
                                 <rect key="frame" x="69" y="832" width="276.5" height="30"/>
@@ -115,6 +124,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGW-zv-H0m">
                                         <rect key="frame" x="224.5" y="0.0" width="52" height="30"/>
                                         <state key="normal" title="Sign up"/>
+                                        <connections>
+                                            <action selector="signUpButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r9O-lT-26d"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -139,6 +151,19 @@
                             <constraint firstItem="G8s-Iq-yFC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="xcf-x8-VCE"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailLabelOutlet" destination="c88-0R-dGn" id="Km6-dG-Axn"/>
+                        <outlet property="emailTextField" destination="oBv-MP-ARs" id="K9U-NL-A4j"/>
+                        <outlet property="loginButtonOutlet" destination="7GH-5a-Dyk" id="gLv-hd-iQC"/>
+                        <outlet property="passwordLabelOutlet" destination="ZJf-U7-Cnp" id="Rgf-AZ-ahx"/>
+                        <outlet property="passwordTextField" destination="97G-Tt-d4o" id="vDi-xW-jqQ"/>
+                        <outlet property="repeatPasswordLabel" destination="Zq5-3I-2tf" id="im5-Np-OnA"/>
+                        <outlet property="repeatPasswordLineView" destination="5FT-MB-5a9" id="VFR-Lz-afd"/>
+                        <outlet property="repeatPasswordTextField" destination="uAE-8x-BwF" id="Lg1-iH-gXO"/>
+                        <outlet property="resendEmailButtonOutlet" destination="ufY-xm-LeP" id="RRu-o5-yP3"/>
+                        <outlet property="signUpButtonOutlet" destination="dGW-zv-H0m" id="pQd-64-ysZ"/>
+                        <outlet property="signUpLabel" destination="vgt-Yv-GeG" id="uMV-d7-WHZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
